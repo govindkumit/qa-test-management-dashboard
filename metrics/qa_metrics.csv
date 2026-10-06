@@ -1,0 +1,21 @@
+metric,category,target,actual,status,owner
+Planned Tests,Execution,570,570,Green,QA Lead
+Executed Tests,Execution,95%,96%,Green,QA Lead
+Passed Tests,Execution,90%,94%,Green,QA Lead
+Failed Tests,Execution,<10%,4%,Green,QA Lead
+Blocked Tests,Execution,<5%,2%,Green,QA Lead
+Requirement Coverage,Coverage,100%,98%,Amber,Test Manager
+Critical Requirement Coverage,Coverage,100%,100%,Green,Test Manager
+Automation Coverage,Coverage,80%,82%,Green,Automation Lead
+Open Critical Defects,Defects,0,0,Green,Test Manager
+Open High Defects,Defects,<=2,2,Amber,Defect Manager
+Defect Reopen Rate,Defects,<5%,4%,Green,Defect Manager
+Defect Leakage,Defects,<3%,2%,Green,Test Manager
+Defect Aging >14 days,Defects,0,1,Amber,Defect Manager
+Regression Pass Rate,Quality,95%,96%,Green,QA Lead
+Performance Acceptance,Quality,100%,95%,Amber,Performance Lead
+Security Baseline,Quality,100%,100%,Green,Security QA
+Environment Availability,Delivery,98%,97%,Amber,Environment Lead
+UAT Completion,Release,100%,100%,Green,Business
+UAT Sign-off,Release,Yes,Yes,Green,Product Owner
+Overall Release Risk,Risk,Low/Medium,Medium,Amber,Test Manager

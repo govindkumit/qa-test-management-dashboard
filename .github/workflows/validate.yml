@@ -1,0 +1,20 @@
+name: Validate QA Portfolio
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate required artifacts
+        run: |
+          test -f README.md
+          test -f metrics/qa_metrics.csv
+          test -f dashboard/quality_dashboard.md
+          test -f release/release_readiness.md
+          test -f risks/risk_register.md
+          test -f test-management/test_strategy.md
+          echo "QA portfolio artifacts validated successfully"
